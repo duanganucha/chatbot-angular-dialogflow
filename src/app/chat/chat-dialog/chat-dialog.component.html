@@ -1,6 +1,7 @@
-<div class="container">
+<div class="container"  >
 
   <h1 style="text-align: center">Angular Bot</h1>
+  <button (click)="scrollToBottom()">down</button>
 
 
   <ng-container *ngFor="let message of messages | async">
@@ -16,6 +17,7 @@
 
   <input [(ngModel)]="formValue" (keyup.enter)="sendMessage()" type="text">
   <button (click)="sendMessage()">Send</button>
+  <button (click)="scrollToTop()">Top</button>
 
 </div>
 
