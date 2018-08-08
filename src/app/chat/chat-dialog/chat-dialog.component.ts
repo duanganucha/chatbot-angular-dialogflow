@@ -29,6 +29,7 @@ export class ChatDialogComponent implements OnInit {
     this.formValue = '';
 
     this.messages.forEach((element) => {
+      console.log(element)
       var message = element[element.length - 1]
       console.log(message.content)
     });
