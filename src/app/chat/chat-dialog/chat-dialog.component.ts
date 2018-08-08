@@ -47,7 +47,7 @@ export class ChatDialogComponent implements OnInit {
 
   }
   scrollToTop() {
-    window.scroll({ top: 0, behavior: 'smooth' });
+    window.scroll({ top: 0, behavior: 'smooth'});
   }
 
 
